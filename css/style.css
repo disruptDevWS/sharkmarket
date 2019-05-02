@@ -362,3 +362,30 @@ header nav li a {
 }
 
 /*Footer Section*/
+footer {
+  background-color: #000;
+  padding: 5rem;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_contact {
+  color: var(--main-font-color);
+  font-size: 1.6rem;
+  line-height: 1.2;
+  align-self: flex-start;
+}
+
+.footer_contact ul {
+  list-style: none;
+}
+
+.footer_social {
+  align-self: flex-end;
+}
+
+.footer_social li {
+  display: inline-block;
+  padding: 0 1rem;
+}
